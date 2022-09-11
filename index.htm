@@ -6,16 +6,16 @@
     <meta name="viewport" id="metaViewport" content="user-scalable=no, initial-scale=1, width=device-width, viewport-fit=cover" data-tdv-general-scale="0.5"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <script src="lib/tdvplayer.js?v=1662855260047"></script>
-    <link rel="preload" href="locale/pt.txt?v=1662855260047" as="fetch" crossorigin="anonymous"/>
-	<link rel="preload" href="script.js?v=1662855260047" as="script"/>
+    <script src="lib/tdvplayer.js?v=1662861551464"></script>
+    <link rel="preload" href="locale/pt.txt?v=1662861551464" as="fetch" crossorigin="anonymous"/>
+	<link rel="preload" href="script.js?v=1662861551464" as="script"/>
 	<script src="scorm.js" type="text/javascript"></script>
 	<meta name="description" content="Virtual Tour"/>
 	<meta name="theme-color" content="#FFFFFF"/>
-    <script src="script.js?v=1662855260047"></script>
+    <script src="script.js?v=1662861551464"></script>
     <script type="text/javascript">
         var tour;
-        var devicesUrl = {"general":"script_general.js?v=1662855260047","mobile":"script_mobile.js?v=1662855260047"};
+        var devicesUrl = {"general":"script_general.js?v=1662861551464","mobile":"script_mobile.js?v=1662861551464"};
 
         (function()
         {
@@ -58,9 +58,9 @@
 
             var settings = new TDV.PlayerSettings();
             settings.set(TDV.PlayerSettings.CONTAINER, document.getElementById('viewer'));
-            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1662855260047');
-            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1662855260047');
-            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1662855260047');
+            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1662861551464');
+            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1662861551464');
+            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1662861551464');
 
             tour = new TDV.Tour(settings, devicesUrl);
             tour.bind(TDV.Tour.EVENT_TOUR_INITIALIZED, onVirtualTourInit);
@@ -309,7 +309,7 @@
     
 </head>
 <body>
-    <div id="preloadContainer" class="fill-viewport"><div style="z-index: 4; position: absolute; left: 0%; top: 47.30167597765364%; width: 100.00%; height: 12.74%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;font-size:2.4581005586592175vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#000000;font-size:2.46vmin;"><B>TOUR VIRTUAL PRODUZIDO POR </B></SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:2.4581005586592175vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#0000ff;font-size:2.46vmin;"><B>@thiago360graus</B></SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:2.4581005586592175vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#0000ff;font-size:2.46vmin;"><B>@visiontour360</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:2.46vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-size:1.67vmin;font-family:Arial, Helvetica, sans-serif;"/></p></div></div></div>
+    <div id="preloadContainer" class="fill-viewport"><div style="z-index: 4; position: absolute; left: 0%; top: 47.30167597765364%; width: 100.00%; height: 16.42%"><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;font-size:3.9106145251396653vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#000000;font-size:3.91vmin;"><B>TOUR VIRTUAL PRODUZIDO POR </B></SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:3.9106145251396653vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#0000ff;font-size:3.91vmin;"><B>@thiago360graus</B></SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:3.9106145251396653vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#0000ff;font-size:3.91vmin;"><B>@visiontour360</B></SPAN></SPAN></DIV><p STYLE="margin:0; line-height:3.91vmin;"><BR STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-size:1.67vmin;font-family:Arial, Helvetica, sans-serif;"/></p></div></div></div>
     <div id="viewer" class="fill-viewport"></div>
 </body>
 </html>
